@@ -1,0 +1,131 @@
+*{
+	margin: 0;
+	padding: 0;
+
+}
+nav{
+	width: 100%; 
+	height:50px;
+	background-color: #0000FF; 
+
+}
+nav ul{
+
+}
+
+nav ul li {
+padding: 8px 22px 8px 10px;
+ list-style: none;
+  display: inline-block;
+  float: left;
+  position: relative;
+
+
+}
+nav ul li a{
+	display: block;
+	text-decoration: none;
+	font-size: 30px;
+	font-family: sans-serif; 
+	color: #ffffff;
+	
+}
+nav ul li:hover ul{
+	display: block;
+	
+}
+nav ul li ul{
+	display: none;
+	position: absolute;
+	background-color: #0000FF;
+font-size: 30px;
+}
+nav ul li ul a{
+	
+}
+nav ul li a:hover {
+color: #FF00FF ;
+}
+background{
+
+}
+body{
+	background-image: url("images/Background for Website.jpeg");
+	background-size: cover;
+
+	
+	color: black;
+	font-size: 30px; 
+	width: 100%; 
+	height:50px;
+	background-color: #f1f1f1; 
+	padding: 10px;
+
+}
+div{
+	margin: 40px 490px;
+	padding: 10px;
+	background-color: #eeeeee;
+
+	}
+div.ImageInteractive{
+	margin: 0px 0px;
+	padding: 0px;
+	display: inline-block;
+  	float: left;
+
+	}
+p.stripeA{ 
+	
+	background-color: #eeeeee;
+ }
+ p{
+ margin: 0px 200px 0 200px;
+	font-size: 40px;	
+	  padding: 30px;
+ }
+ p.stripeB{ 
+	
+	background-color: #cecece;
+ }
+img{
+	float: right;
+	height: 410px;
+	margin-left: 25px;
+}
+img.s{
+	height: 500px;
+}
+img.diagram{
+	height: 625px;
+}
+img.homescreen{
+	border: #eeeeee;
+	height: 1400px;
+	margin: 30px 35px 80px 95px;
+	padding: 30px;
+	background-color: #eeeeee;
+
+
+}
+h2{
+	background-color: #ff00ff;
+	margin: 0px 200px 0 200px;	
+
+}
+h2.homepg{
+	background-color: #ff00ff;
+	margin: 1550px 200px 0 200px;	
+
+}
+h2.b{
+	background-color: #0000ff;
+	margin: 0px 200px 0 200px;	
+	color: white;
+}
+h2.Head{
+	margin: 40px 200px 0 200px;
+}
+video{
+	float: right;
+}
